@@ -11,7 +11,7 @@
     "AWS_REGION": "${localEnv:AWS_REGION}"
   },
 
-  "postCreateCommand": "npm ci || npm install && npm install -g aws-cdk",
+  "postCreateCommand": "(npm ci || npm install) && npm install -g aws-cdk",
 
   "customizations": {
     "vscode": {
