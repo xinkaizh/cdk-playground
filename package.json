@@ -7,8 +7,9 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "clean": "rm -rf cdk.out dist",
+    "clean-all": "rm -rf cdk.out dist node_modules"
   },
   "devDependencies": {
     "@types/jest": "^30",
