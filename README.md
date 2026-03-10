@@ -10,6 +10,7 @@
 
 ## Additional Useful Commands
 
+- `npx cdk list`: List all stacks in the CDK app.
 - `npm run build`: Compile TypeScript files to JavaScript.
 - `npm run watch`: Watch for file changes and automatically recompile TypeScript.
 - `npm run clean-all`: Remove node_modules in addition to a build artifacts.
